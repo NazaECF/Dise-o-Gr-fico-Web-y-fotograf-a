@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ambito de variables 2</title>
+    </head>
+    <body>
+      <inout id="age" value="18" />
+      <button onclick="myFunction()">Púlsame</button>
+      </button>
+      <p id="demo"></p>
+
+    <script>
+    var carName ="Volvo";
+    myFunction();
+
+    function myFunction() {
+      document.getElementById("demo").innerHTML =
+      "Puedo mostrar" + carName;
+      </script>
+      <script>
+      myFunction();
+      document.getElementById("demo").innerHTML =
+      " the type is carName is " + typeof carName;
+
+      function myFunction() {
+           var carName = "volvo";
+      }
+
+      </script>
+      <script>
+        var carName = "Volvo";
+        myFunction();
+
+        function myFunction() {
+          document.getElementById("demo").innerHTML =
+            "Puedo mostrar " + carName;
+        }
+      </script>
+      <script> var txt = "sajkbdsakjbcas"
+               var sln = txt.length;
+      document.getElementById("demo").innerHTML = sln;</script>
+      <script>
+  var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  document.getElementById("demo").innerHTML = txt.length;</script>
+     <script> var hoy, algunDia, texto;
+              hoy = new Date();
+              algunDia = new Date();
+              algunDia.setFullYear(2017, 09, 01);
+
+             if (algunDia < hoy) {
+                  texto = "Hoy es antes del apocalipsis zoombie total";
+             } else {
+                  texto = "Hoy es despues del fallido apocalipsis zoombie total, más suerte la próxima vez"
+             }
+            document.getElementById("demo").innerHTML = texto;</script><script>
+            var coches = ["Volvo", "BMW", "Seat"];
+            document.getElementById("demo").innerHTML = coches[0];</script>
+      <script>
+                var frutas = ["Plátanos", "Naranja", "Manzana"];
+                document.getElementById("demo").innerHTML = frutas.sort();</script>
+       <script>
+
+               function myFunction() {
+                      var edad, votable;
+                      edad = document.getElementById("age").value;
+                      votable = (edad < 18) ? "Demasiado Joven":"Edad suficiente";
+                      document.getElementById("demo").innerHTML = votable + "para votar.";
+               }</script>
+
+
+      </html></body>

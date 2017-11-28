@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ambito de variables 2</title>
+    </head>
+    <body>
+      <inout id="age" value="18" />
+      <button onclick="myFunction()">Púlsame</button>
+      </button>
+      <p id="demo"></p>
+
+        <script>
+
+               function myFunction() {
+                      var edad, votable;
+                      edad = document.getElementById("age").value;
+                      votable = (edad < 18) ? "Demasiado Joven":"Edad suficiente";
+                      document.getElementById("demo").innerHTML = votable + "para votar.";
+               }</script>
+
+               <p id="demo">Buenas Tardes</p>
+
+               <script>
+
+                 if (new date().getHours < 12 {
+                 document.getElementById("demo").innerHTML = "Buenos Dias!";
+                 } if (time < 10) {
+                   greeting = "Buenos Dias";
+                 } else if (time < 12) {
+                     greeting = "Buenas tardes";
+                 } else {
+                   greeting = "Buenas Noches";
+                 }
+                 document.getElementById("demo").innerHTML = greeting;
+  </script>
+
+                  <button onclick=myFunction()>Pulsame </button>
+                  <script>
+                  var day;
+                  switch (new Date().getDay() ) {
+                    case 0:
+                        day = "Domingo";
+                        break;
+                    case 1:
+                        day = "Lunes";
+                    case 2:
+                        day = "Martes";
+                        break;
+                    case 3:
+                        day = "Miercoles";
+                        break;
+                    case 4:
+                        day = "Jueves";
+                        break;
+                    case 5:
+                        day = "Viernes";
+                        break;
+                    case 6:
+                        day = "Sabado";
+                  }
+                    document.getElementById("demo").innerHTML = "Hoy es" + day;
+               </script><script>
+
+                        var cars = ["BMW", "Volvo", "Ford", "Audi", "Mercedes", "Seat"];
+                        var txt = "";
+                        var i;
+                        for (i = 0; i < cars.length; i++) {
+                            text += cars [i] + "<br>";
+                        }
+                        document.getElementById("demo").innerHTML = text;
+                       </script>
+
+
+      </html> </body>

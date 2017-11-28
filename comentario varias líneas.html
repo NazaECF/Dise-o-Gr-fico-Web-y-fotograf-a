@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Variables en Javascript</title>
+    </head>
+
+    <body>
+      <p id="parrafo1"></p>
+      <p id="parrafo2"></p>
+      <p id="parrafo3"></p>
+      <script>
+           var nombre;
+
+           //Mostramos el valor de la variable (undefined)
+           document.getElementById("parrafo1").innerHTML = nombre;
+
+           //Asignación de valor de una variable
+           nombre = "Ada";
+
+           //Mostramos el valor de una variable
+           document.getElementById("parrafo2").innerHTML = nombre;
+
+           //Declaración de variables de una sola sentencia
+              //var país, nacimiento;
+              var país="Reino Unido", nacimiento = 1815;
+
+          //Asignación de operaciones a una sola variable
+                var nombreApellido = "Ada" + " " + "Lovelace";
+                var fallecimiento = nacimiento + 37;
+
+                document.getElementById("parrafo3").innerHTML = nombreApellido + " nació en " + país + " en " + nacimiento + " y murió en " + fallecimiento;
+      </script>
+      </body>
+      </html>
