@@ -1,0 +1,276 @@
+@font-face{
+	   font-family:"bebas";
+	   src:url("BebasNeue.otf");
+}
+
+#menu{
+	   font-family:"bebas";
+	   color:black;
+}
+			}
+			#cabecera {
+				width:100%;
+		
+			}
+			#cabecera img{
+				width:100%;
+			}
+
+#portada img{
+	  width:100%;
+}
+
+
+#ventas{
+	   font-family:"bebas";
+	   color:black;
+}
+
+@font-face{5
+	font-family:"lato";
+	src:url("lato.ttf");
+}
+
+#contacto{
+	font-family:"lato";
+	color:black;
+    position:relative
+	}
+
+@font-face{
+    font-family:"lato";
+	src:url("lato.ttf")
+}
+
+#publicidad{
+     font-family:"lato";
+	 color:black;
+}
+	
+#quienesomos{
+	font-family:"lato"
+	text-align: center;
+}
+
+#noticias{
+	width:20;
+	font-family:"lato";
+}
+
+
+
+
+
+.Inicio{
+	float:left;
+	width:16%;
+	color:black;
+	text-align:center;
+}
+
+.Quienesomos{
+    float:left;
+	width:16%;
+    color:black;
+	text-align:center;
+}
+
+.Noticias{
+	float:left;
+	width:16%;
+	color:black;
+	text-align:center;
+	
+}
+
+.Publicidad{
+	float:left;
+	width:16%;
+	color:black;
+	text-align:center;
+}
+
+.Ventas{
+  	float:left;
+	width:16%;
+    color:blabk;
+	text-align:center;
+}
+
+.Contacto{
+    float:left;
+	width:16%;
+    color:black;
+	
+}
+
+a:visited,a{
+    color:black;
+	text-decoration:none;
+	font-size:35px;
+}
+
+	
+}
+
+#presentación{
+	margin:auto;
+	width:80%;
+}
+
+#judit{
+	margin:auto;
+	width:70%;
+    font-size:65px;
+	float:left:;
+}
+
+#judit img{
+	width:90%;
+}
+
+#gina{
+	margin:auto;
+	width:70%;
+	font-size:55px;
+	float:left:         ;
+	
+}   
+
+#gina img{
+	width:90%;
+	
+}
+
+#krisztina{
+	margin:auto;
+	width:70%;
+	font-size:65px;
+	float:left:;
+	
+}   
+
+#krisztina img{
+	width:90%;
+	
+}
+
+#negro{
+	margin:auto;
+	width:70%;
+	font-size:51px;
+	float:left:;
+}
+
+#negro img{
+	width:90%;
+}
+	
+#gina1{
+	margin:auto;
+	width:35%;
+	font-size:25px;
+	float:left:;
+	
+}   
+
+#gina1 img{
+	width:95%;
+	
+}
+
+#oro1{
+	margin:auto;
+	width:100%;
+	font-size:25px;
+	float:left;
+	
+}   
+
+#oro1 img{
+	width:100%;
+	
+}
+
+#llaves{
+	margin:auto;
+	width:100%;
+	font-size:25px;
+	float:left;
+}
+
+#llaves1 img{
+	width:50%;
+}
+
+#ventas1{
+	margin:auto;
+	width:35%;
+	font-size:51px;
+	float:left:;
+}
+
+#ventas1 img{
+	width:90%;
+}
+	
+#ventas2{
+	margin:auto;
+	width:85%;
+	font-size:15px;
+	float:left:;
+	
+}   
+
+#ventas2 img{
+	width:95%;
+	
+}
+
+#ventas3{
+	margin:auto;
+	width:100%;
+	font-size:25px;
+	float:left;
+	
+}   
+
+#ventas3 img{
+	width:100%;
+	
+}
+
+#ventas4{
+	margin:auto;
+	width:100%;
+	font-size:25px;
+	float:left;
+}
+
+#ventas4 img{
+	width:50%;
+}
+
+#publicidad{
+	margin:auto;
+	width:50%;
+	font-size:25px;
+	float:left:;
+}
+
+#publicidad img{
+	width:100%;
+}
+
+
+
+	
+	
+	
+	
+	
+    
+          	
+	
+
+
